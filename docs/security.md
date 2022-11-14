@@ -38,3 +38,13 @@ The utilized hash function are one-way hashes, meaning they cannot be reverse en
     - [golang.org/x/crypto](https://github.com/golang/crypto)
 - Dart (Mobile)
     - [pointycastle](https://github.com/bcgit/pc-dart)
+
+## Security FAQs
+
+### Can MultiPass see my passwords?
+
+**No**. MultiPass does not have access to your passwords. Your passwords are encrypted on your local device before being sent to the MicroPass server.
+
+### If I forget my master password, can I recovery my Vault?
+
+**No**. If you forget your master password, you will not be able to recover your Vault. Your Vault is fully encrypted, so without a master password your data is useless.
