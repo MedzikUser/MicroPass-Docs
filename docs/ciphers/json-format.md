@@ -6,9 +6,9 @@ The Cipher is a JSON object that contains the following fields:
 
 - `id` - The unique identifier of the cipher. This is a UUID.
 - `favorite` - Whether or not the cipher is a favorite. This is a boolean.
-- `dir` - The direction of the cipher. It is a string. It can be null.
-- `data` - The data of the cipher. It is a [Cipher Data type](#cipher-data).
-- `attachments` - The attachments of the cipher. It is an array of strings (Attachment UUIDs).
+- `dir` - The directory of the cipher. This is a string. It can be null.
+- `data` - The data of the cipher. This is a [Cipher Data type](#cipher-data).
+- `attachments` - The attachments of the cipher. This is an array of strings (Attachment UUIDs).
 
 ### Example Cipher
 
